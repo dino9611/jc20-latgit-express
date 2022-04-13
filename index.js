@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+console.log("buat sesuatu");
+
+console.log("")
+=======
 require("dotenv").config();
 const express = require("express");
 const app = express();
@@ -39,3 +44,4 @@ app.use("/books", bukuRoutes);
 app.listen(port, () => {
   console.log(`app listening on port ${port}`);
 });
+>>>>>>> develop
